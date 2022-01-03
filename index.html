@@ -4,9 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>cv</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header class="page-header">
+            <nav class="menu">
+                <ul class="navigation">
+                    <li><a href="#About_me" class="nav_elemnt">About me</a></li>
+                    <li><a href="#Skills" class="nav_elemnt">Skills</a></li>
+                    <li><a href="#Contacts" class="nav_elemnt">Contacts</a></li>
+                    <li><a href="#Work_experience" class="nav_elemnt">Work experience</a></li>
+                    <li><a href="#Education" class="nav_elemnt">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+       <div class="flex_container">
+        <div class="aside_block">
+            <img src="./img/portrait.jpg" alt="my_photo" class="my_photo">
+            <div class="left_container">
+            <h1>Barnych Kate</h1>
+            <div class="position">Java Script (Front-end)</div>
+            <h2 class="about"><a name="About_me"></a>About me</h2>
+                <div class="about_me">I am a beginner front-end developer. I was train at Source iT school, Alexander Lushchenko's online course, and at the moment I am additionally studying on the CS50 course. I devote most of my time to self-study.</div>
+            <h2 class="skills"><a name="Skills"></a>Skills</h2>
+                <div class="my_skills">
+                    <h3 class="my_skills_desc">Programming languages:</h3>
+                        <div class="skills_desc"> JavaScript, HTML/CSS</div>
+                    <h3 class="my_skills_desc">Development environments / Systems:</h3>
+                        <div class="skills_desc"> Visual Studio</div>
+                    <h3 class="my_skills_desc">Graphic editor:</h3>
+                        <div class="skills_desc">Adobe Photoshop</div>
+                    <h3 class="my_skills_desc">Languages:</h3>
+                        <div class="skills_desc">English (Intermediate)</div>
+                </div>
+            <h2 class="contacts"><a name="Contacts"></a>Contacts:</h2>
+                <div class="contacts_desc">Email:
+                    <span class="cont_desc">katrusyabarnich@gmail.com</span>
+                </div>
+                <div class="contacts_desc">Mobile:
+                    <span class="cont_desc">+3 8(099)02-09-347 </span>
+                    <span class="cont_desc">+3 8(068) 857-89-86</span>
+                </div>
+                <div class="contacts_desc">LinkedIn:
+                    <a href="linkedin.com/in/екатерина-барнич-0328931a4" class="cont_desc">linkedin.com/in/екатерина-барнич-0328931a4</a>
+                </div>
+                <div class="contacts_desc">Adres:
+                    <span class="cont_desc">
+                st. Mirnaya, 5
+                Kharkov
+                 </span>
+                </div>
+            </div>
+        </div>
+        <main class="main_part">
+            <div class="desc_main_part">
+            <h2 class="expirience"><a name="Work_experience"></a>Work experience</h2>
+                <div class="exp_desc">
+                   
+                    <h3>Copywriter, SMM specialist</h3>
+                            <h4>FLP "Grebinchenko" | January 2014 - November 2015</h4>
+                                <ul class="duties">
+                                    <li>writing texts for company websites;</li>
+                                    <li>maintaining groups in social networks Vkontakte and Odnoklassniki;</li>
+                                    <li>uploading and editing texts to the company's website;</li>
+                                </ul>
+                    <h3>Copywriter</h3>
+                            <h4>SeoAssistant company| November 2015 - October 2020</h4>
+                                <ul class="duties">
+                                    <li>selection of employees and control over the implementation of tasks;</li>
+                                    <li>writing texts, posts for social networks, editing texts. </li>
+                                </ul>
+                    <h3>Directologist, copywriter, content manager</h3>
+                           <h4>AMK company | November 2019 - Present</h4>
+                                <ul class="duties">
+                                    <li>writing texts, news, writing review articles;</li>
+                                    <li>editing texts of freelancers;</li>
+                                    <li>filling the finished material, pictures on the Prom.ua website;</li>
+                                    <li>maintaining GoogleAds advertising accounts;</li>
+                                </ul>
+                </div>
+            <h2 class="education"><a name="Education"></a>Education</h2>
+                <h3>V.N. Karazin Kharkiv National University</h3>
+                    <div>Faculty of Philology (specialty - Ukrainian language and literature), master</div>
+                <h3>Source iT</h3>
+                    <div>JavaScript (front end)</div>
+                <h3>Online course by Alexander Lushchenko</h3>
+                    <div>HTML for JavaScript Developers</div>
+                <h3>RSSCHOOL</h3>
+                    <div>JS/FE Pre-School 2022</div>
+            <h2 class="education">Example code</h2>
+            <div class="code_part">for (let num = 0; num <= 100; num++) {
+                if (num % 2 == 0) {
+                console.log(num);
+            }
+            }
+            </div>
+            <h2 class="projects">Projects</h2>
+                <a href="https://github.com/Barnich-Kate/tamagochi" class="play">Play "Tamagochi"</a>
+            </div>
+        </main>
+    </div> 
+    <div class="line"></div>
+        <footer class="footer_block">
+            <img src="./img/rs_school_js.svg" alt="rs_school_logo" class="rs_school_logo">
+            <div><a href="https://github.com/Barnich-Kate" class="github">GitHub</a></div>
+            <div><a href="https://rs.school/js/" class="course">Курс «JavaScript/Front-end»</a></div>
+            <div class="year">2022</div>
+        </footer>
+    </div>   
 </body>
 </html>
